@@ -1,4 +1,5 @@
 Package.describe({
+    name: "redspear:readmore",
     summary: "A lightweight jQuery plugin for collapsing and expanding long blocks of text with \"Read more\" and \"Close\" links.",
     version: "0.1.0",
     git: "https://github.com/redspear/meteor-readmore"
