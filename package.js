@@ -11,7 +11,7 @@ Package.on_use(function (api, where) {
     api.use('jquery', 'client');
     api.use('momentjs:moment@2.8.4');
 
-    api.add_files([
+    api.addFiles([
         // Add Date Time Picker CSS and JS files
       'lib/js/readmore.js',
     ], 'client');
