@@ -5,7 +5,7 @@ Package.describe({
     git: "https://github.com/redspear/meteor-readmore"
 });
 
-Package.on_use(function (api, where) {
+Package.onUse(function (api, where) {
     api.versionsFrom('METEOR@1.0.2');
 
     api.use('jquery', 'client');
